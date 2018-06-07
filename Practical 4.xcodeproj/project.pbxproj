@@ -13,6 +13,8 @@
 		82B1926D20C8EC3E00165AA2 /* Practical_4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82B1926B20C8EC3E00165AA2 /* Practical_4.xcdatamodeld */; };
 		82B1926F20C8EC4000165AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82B1926E20C8EC4000165AA2 /* Assets.xcassets */; };
 		82B1927220C8EC4000165AA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B1927020C8EC4000165AA2 /* LaunchScreen.storyboard */; };
+		82B1927A20C8ECEE00165AA2 /* songs in Resources */ = {isa = PBXBuildFile; fileRef = 82B1927920C8ECEE00165AA2 /* songs */; };
+		82B1927C20C8ED1B00165AA2 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1927B20C8ED1A00165AA2 /* MusicPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		82B1926E20C8EC4000165AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82B1927120C8EC4000165AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82B1927320C8EC4000165AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82B1927920C8ECEE00165AA2 /* songs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = songs; sourceTree = "<group>"; };
+		82B1927B20C8ED1A00165AA2 /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		82B1926320C8EC3E00165AA2 /* Practical 4 */ = {
 			isa = PBXGroup;
 			children = (
+				82B1927B20C8ED1A00165AA2 /* MusicPlayer.swift */,
+				82B1927920C8ECEE00165AA2 /* songs */,
 				82B1926420C8EC3E00165AA2 /* AppDelegate.swift */,
 				82B1926620C8EC3E00165AA2 /* ViewController.swift */,
 				82B1926820C8EC3E00165AA2 /* Main.storyboard */,
@@ -128,6 +134,7 @@
 				82B1927220C8EC4000165AA2 /* LaunchScreen.storyboard in Resources */,
 				82B1926F20C8EC4000165AA2 /* Assets.xcassets in Resources */,
 				82B1926A20C8EC3E00165AA2 /* Main.storyboard in Resources */,
+				82B1927A20C8ECEE00165AA2 /* songs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			files = (
 				82B1926720C8EC3E00165AA2 /* ViewController.swift in Sources */,
 				82B1926520C8EC3E00165AA2 /* AppDelegate.swift in Sources */,
+				82B1927C20C8ED1B00165AA2 /* MusicPlayer.swift in Sources */,
 				82B1926D20C8EC3E00165AA2 /* Practical_4.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
